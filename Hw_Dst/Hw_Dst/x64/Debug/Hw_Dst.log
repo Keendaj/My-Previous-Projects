@@ -1,0 +1,28 @@
+﻿  Hw_Dst.c
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(32,12): warning C4047: >=: "int *" отличается по уровням косвенного обращения от "int"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(58,19): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char **"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(58,19): warning C4024: Realloc_s: различные типы для формального и фактического параметров 1
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(58,7): warning C4047: =: "char **" отличается по уровням косвенного обращения от "char *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(74,2): warning C4047: return: "char *" отличается по уровням косвенного обращения от "char **"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(105,24): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char **"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(105,24): warning C4024: Realloc_s: различные типы для формального и фактического параметров 1
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(105,12): warning C4047: =: "char **" отличается по уровням косвенного обращения от "char *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(125,15): warning C4047: ==: "int" отличается по уровням косвенного обращения от "void *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(135,26): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char **"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(135,26): warning C4024: Realloc_s: различные типы для формального и фактического параметров 1
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(135,14): warning C4047: =: "char **" отличается по уровням косвенного обращения от "char *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(164,13): warning C4047: ==: "int" отличается по уровням косвенного обращения от "void *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(172,25): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char **"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(172,25): warning C4024: Realloc_s: различные типы для формального и фактического параметров 1
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(172,13): warning C4047: =: "char **" отличается по уровням косвенного обращения от "char *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(189,24): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char **"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(189,24): warning C4024: Realloc_s: различные типы для формального и фактического параметров 1
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(189,12): warning C4047: =: "char **" отличается по уровням косвенного обращения от "char *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(202,26): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char **"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(202,26): warning C4024: Realloc_s: различные типы для формального и фактического параметров 1
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(202,14): warning C4047: =: "char **" отличается по уровням косвенного обращения от "char *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(218,22): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char **"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(218,22): warning C4024: Realloc_s: различные типы для формального и фактического параметров 1
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(218,10): warning C4047: =: "char **" отличается по уровням косвенного обращения от "char *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(238,10): warning C4047: инициализация: "char **" отличается по уровням косвенного обращения от "char *"
+  Hw_Dst.vcxproj -> C:\Users\Keendaj\source\repos\Hw_Dst\x64\Debug\Hw_Dst.exe

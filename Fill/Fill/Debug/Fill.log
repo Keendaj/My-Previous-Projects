@@ -1,0 +1,26 @@
+﻿  Fill.c
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(8,12): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(28,19): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(32,45): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(38,24): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(47,16): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(48,27): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(50,16): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(52,45): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(57,16): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(58,27): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(60,16): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(64,32): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(64,10): warning C4477: "printf": в строке форматирования "%p" требуется аргумент типа "void *", но вариативный аргумент "1" имеет тип "long"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(69,41): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(86,8): warning C4013: isprint: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(56,6): warning C4101: z: неиспользованная локальная переменная
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(102,24): warning C4244: функция: преобразование "int" в "float", возможна потеря данных
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(102,26): warning C4244: функция: преобразование "int" в "float", возможна потеря данных
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(104,12): warning C4133: функция: несовместимые типы - из "FILE *" в "const char *"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(105,14): warning C4133: функция: несовместимые типы - из "FILE *" в "const char *"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(110,24): warning C4133: функция: несовместимые типы - из "FILE *" в "const char *"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(111,25): warning C4133: функция: несовместимые типы - из "FILE *" в "const char *"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(118,11): warning C4133: функция: несовместимые типы - из "FILE *" в "const char *"
+C:\Users\Keendaj\source\repos\Fill\Fill\Fill.c(120,11): warning C4133: функция: несовместимые типы - из "FILE *" в "const char *"
+  Fill.vcxproj -> C:\Users\Keendaj\source\repos\Fill\Debug\Fill.exe

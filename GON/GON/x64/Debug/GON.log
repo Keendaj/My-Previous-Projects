@@ -1,0 +1,7 @@
+﻿GON.obj : error LNK2019: ссылка на неразрешенный внешний символ LabInit в функции main.
+GON.obj : error LNK2019: ссылка на неразрешенный внешний символ LabGetWidth в функции main.
+GON.obj : error LNK2019: ссылка на неразрешенный внешний символ LabGetHeight в функции main.
+GON.obj : error LNK2019: ссылка на неразрешенный внешний символ LabSetColor в функции main.
+GON.obj : error LNK2019: ссылка на неразрешенный внешний символ LabDrawRectangle в функции main.
+labengine-vs15-dbg.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+C:\Users\Keendaj\source\repos\GON\x64\Debug\GON.exe : fatal error LNK1120: неразрешенных внешних элементов: 5

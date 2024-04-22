@@ -1,0 +1,6 @@
+﻿  BitHw.c
+C:\Users\Keendaj\source\repos\BitHw\BitHw\BitHw.c(16,21): warning C4101: z: неиспользованная локальная переменная
+C:\Users\Keendaj\source\repos\BitHw\BitHw\BitHw.c(42,9): warning C4477: "printf": в строке форматирования "%#0*X" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "unsigned __int64"
+C:\Users\Keendaj\source\repos\BitHw\BitHw\BitHw.c(42,9): message : этот аргумент используется в качестве ширины поля
+C:\Users\Keendaj\source\repos\BitHw\BitHw\BitHw.c(54,19): warning C4293: <<: отрицательное или слишком большое смещение; поведение не определено
+  BitHw.vcxproj -> C:\Users\Keendaj\source\repos\BitHw\x64\Debug\BitHw.exe
