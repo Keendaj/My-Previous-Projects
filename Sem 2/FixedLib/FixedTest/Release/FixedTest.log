@@ -1,0 +1,21 @@
+﻿  Fixed.c
+C:\Users\Keendaj\source\repos\FixedLib\FixedTest\Fixed.c(30,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+Fixed.obj : error LNK2001: unresolved external symbol _FixedFloor
+Fixed.obj : error LNK2001: unresolved external symbol _FixedNegate
+Fixed.obj : error LNK2001: unresolved external symbol _FixedParse
+Fixed.obj : error LNK2001: unresolved external symbol _FixedReciprocal
+Fixed.obj : error LNK2001: unresolved external symbol _FixedAbs
+Fixed.obj : error LNK2001: unresolved external symbol _FixedFormat
+Fixed.obj : error LNK2001: unresolved external symbol _FixedSub
+Fixed.obj : error LNK2001: unresolved external symbol _FixedRead
+Fixed.obj : error LNK2001: unresolved external symbol _FixedRound
+Fixed.obj : error LNK2001: unresolved external symbol _FixedAsDouble
+Fixed.obj : error LNK2001: unresolved external symbol _FixedWrite
+Fixed.obj : error LNK2001: unresolved external symbol _FixedAsInt
+Fixed.obj : error LNK2001: unresolved external symbol _FixedCeil
+Fixed.obj : error LNK2001: unresolved external symbol _FixedAdd
+Fixed.obj : error LNK2001: unresolved external symbol _FixedDiv
+Fixed.obj : error LNK2001: unresolved external symbol _FixedMul
+Fixed.obj : error LNK2001: unresolved external symbol _FixedFromDouble
+Fixed.obj : error LNK2001: unresolved external symbol _FixedFromInt
+C:\Users\Keendaj\source\repos\FixedLib\Release\FixedTest.exe : fatal error LNK1120: 18 unresolved externals

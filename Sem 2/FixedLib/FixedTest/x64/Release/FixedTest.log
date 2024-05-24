@@ -1,0 +1,5 @@
+﻿  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 28 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  FixedTest.vcxproj -> C:\Users\Keendaj\source\repos\FixedLib\x64\Release\FixedTest.exe

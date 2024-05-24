@@ -1,0 +1,3 @@
+﻿  PolyTest.c
+C:\Users\Keendaj\source\repos\PolyLib\PolyTest\PolyTest.c(33,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  PolyTest.vcxproj -> C:\Users\Keendaj\source\repos\PolyLib\x64\Debug\PolyTest.exe

@@ -1,7 +1,0 @@
-﻿  FixLib.c
-C:\Users\Keendaj\source\repos\Fix\FixLib\FixLib.c(50,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Keendaj\source\repos\Fix\FixLib\FixLib.c(44,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Keendaj\source\repos\Fix\FixLib\FixLib.c(54,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Keendaj\source\repos\Fix\FixLib\FixLib.c(334,16): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-C:\Users\Keendaj\source\repos\Fix\FixLib\FixLib.c(334,18): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-  FixLib.vcxproj -> C:\Users\Keendaj\source\repos\Fix\x64\Debug\FixLib.lib

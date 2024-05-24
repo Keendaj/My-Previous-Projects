@@ -1,0 +1,7 @@
+﻿  PolyLib.c
+C:\Users\Keendaj\source\repos\PolyLib\PolyLib\PolyLib.c(2,1): warning C4005: 'max': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(1282,1): message : see previous definition of 'max'
+C:\Users\Keendaj\source\repos\PolyLib\PolyLib\PolyLib.c(54,6): warning C4101: 'skip': unreferenced local variable
+C:\Users\Keendaj\source\repos\PolyLib\PolyLib\PolyLib.c(95,21): warning C4047: '>=': 'int' differs in levels of indirection from 'int *'
+C:\Users\Keendaj\source\repos\PolyLib\PolyLib\PolyLib.c(287,28): warning C4028: formal parameter 1 different from declaration
+  PolyLib.vcxproj -> C:\Users\Keendaj\source\repos\PolyLib\x64\Debug\PolyLib.lib

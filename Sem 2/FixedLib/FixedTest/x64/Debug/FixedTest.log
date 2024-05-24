@@ -1,0 +1,21 @@
+﻿  Fixed.c
+C:\Users\Keendaj\source\repos\FixedLib\FixedTest\Fixed.c(30,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+Fixed.obj : error LNK2019: unresolved external symbol FixedFromInt referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedFromDouble referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedAsInt referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedAsDouble referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedParse referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedFormat referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedRead referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedWrite referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedAdd referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedSub referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedMul referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedDiv referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedNegate referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedReciprocal referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedAbs referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedRound referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedFloor referenced in function main
+Fixed.obj : error LNK2019: unresolved external symbol FixedCeil referenced in function main
+C:\Users\Keendaj\source\repos\FixedLib\x64\Debug\FixedTest.exe : fatal error LNK1120: 18 unresolved externals
