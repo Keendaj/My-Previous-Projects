@@ -1,3 +1,0 @@
-﻿  Fix.c
-C:\Users\Keendaj\source\repos\Fix\Fix\Fix.c(30,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  Fix.vcxproj -> C:\Users\Keendaj\source\repos\Fix\x64\Debug\Fix.exe

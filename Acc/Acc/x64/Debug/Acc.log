@@ -1,3 +1,0 @@
-﻿  Acc.c
-C:\Users\Keendaj\source\repos\Acc\Acc\Acc.c(34,9): warning C4244: return: преобразование "double" в "int", возможна потеря данных
-  Acc.vcxproj -> C:\Users\Keendaj\source\repos\Acc\x64\Debug\Acc.exe

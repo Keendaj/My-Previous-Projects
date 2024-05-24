@@ -1,9 +1,0 @@
-﻿  Union.c
-C:\Users\Keendaj\source\repos\Union\Union\Union.c(37,16): warning C4090: функция: разные квалификаторы "const"
-C:\Users\Keendaj\source\repos\Union\Union\Union.c(38,27): warning C4090: функция: разные квалификаторы "const"
-C:\Users\Keendaj\source\repos\Union\Union\Union.c(40,16): warning C4090: функция: разные квалификаторы "const"
-C:\Users\Keendaj\source\repos\Union\Union\Union.c(42,45): warning C4090: функция: разные квалификаторы "const"
-C:\Users\Keendaj\source\repos\Union\Union\Union.c(54,19): warning C4133: функция: несовместимые типы - из "FILE *" в "const char *"
-C:\Users\Keendaj\source\repos\Union\Union\Union.c(61,54): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
-C:\Users\Keendaj\source\repos\Union\Union\Union.c(67,135): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
-  Union.vcxproj -> C:\Users\Keendaj\source\repos\Union\x64\Debug\Union.exe
