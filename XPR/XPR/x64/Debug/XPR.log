@@ -1,5 +1,0 @@
-﻿  Source.c
-C:\Users\Keendaj\source\repos\XPR\XPR\Source.c(44,16): warning C4244: =: преобразование "__int64" в "char", возможна потеря данных
-C:\Users\Keendaj\source\repos\XPR\XPR\Source.c(47,10): warning C4244: =: преобразование "__int64" в "char", возможна потеря данных
-C:\Users\Keendaj\source\repos\XPR\XPR\Source.c(63,15): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
-  XPR.vcxproj -> C:\Users\Keendaj\source\repos\XPR\x64\Debug\XPR.exe
