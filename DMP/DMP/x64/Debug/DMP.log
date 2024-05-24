@@ -1,0 +1,5 @@
+﻿  DMP.c
+C:\Users\Keendaj\source\repos\DMP\DMP\DMP.c(59,8): warning C4013: isprint: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Keendaj\source\repos\DMP\DMP\DMP.c(36,17): warning C4090: инициализация: разные квалификаторы "const"
+C:\Users\Keendaj\source\repos\DMP\DMP\DMP.c(80,23): error C2100: недопустимое косвенное обращение
+C:\Users\Keendaj\source\repos\DMP\DMP\DMP.c(82,23): error C2100: недопустимое косвенное обращение

@@ -1,0 +1,22 @@
+﻿  THR.c
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(27,25): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(27,41): warning C4244: 'function': conversion from 'const double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(27,56): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(27,72): warning C4244: 'function': conversion from 'const double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(28,26): warning C4244: 'function': conversion from 'const double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(28,41): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(28,57): warning C4244: 'function': conversion from 'const double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(28,72): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(46,23): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(46,34): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(46,44): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(46,54): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(66,23): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(66,35): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(66,45): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(66,55): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(94,23): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(94,35): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(94,45): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\THR\THR\THR.c(94,55): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+  THR.vcxproj -> C:\Users\Keendaj\source\repos\THR\Debug\THR.exe

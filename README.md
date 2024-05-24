@@ -1,2 +1,2 @@
-# My-Previous-Projects
-Projects to show in Y&amp;&amp;Y
+# Spbpu
+Tasks from my first course in university

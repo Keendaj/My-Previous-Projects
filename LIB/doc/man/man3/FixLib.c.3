@@ -1,0 +1,452 @@
+.TH "C:/Users/Keendaj/source/repos/LIB/LIB/FixLib.c" 3 "Version 1.0" "Fix" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+C:/Users/Keendaj/source/repos/LIB/LIB/FixLib.c \- Реализация нового типа данных \fBfixed_t\fP: число с фиксированной точкой  
+
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <stdio\&.h>\fP
+.br
+\fR#include <stdlib\&.h>\fP
+.br
+\fR#include <limits\&.h>\fP
+.br
+
+.SS "Data Structures"
+
+.in +1c
+.ti -1c
+.RI "struct \fBfixed_t\fP"
+.br
+.in -1c
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBMAX_SIZE\fP   20"
+.br
+.ti -1c
+.RI "#define \fBACCURACY\fP   1e\-6"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "char \fB__CalcLength\fP (int a)"
+.br
+.ti -1c
+.RI "int \fB__Pow\fP (int a, int b)"
+.br
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixFromInt\fP (int i)"
+.br
+.RI "Создание объекта типа \fBfixed_t\fP из числа типа int\&. "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixFromDouble\fP (double a)"
+.br
+.RI "Создание объекта типа \fBfixed_t\fP из числа типа double\&. "
+.ti -1c
+.RI "int \fBFixAsInt\fP (\fBfixed_t\fP c)"
+.br
+.RI "Создание числа типа int из объекта типа \fBfixed_t\fP\&. "
+.ti -1c
+.RI "double \fBFixAsDouble\fP (\fBfixed_t\fP c)"
+.br
+.RI "Создание числа типа double из объекта типа \fBfixed_t\fP\&. "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixParse\fP (char *x)"
+.br
+.RI "Создание объекта типа \fBfixed_t\fP из строки вида FIX[x\&.x]\&. "
+.ti -1c
+.RI "char * \fBFixFormat\fP (\fBfixed_t\fP c)"
+.br
+.RI "Создание строки вида FIX[x\&.x] из объекта типа \fBfixed_t\fP\&. "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixRead\fP (char const *filepath)"
+.br
+.RI "Считывание строки вида FIX[x\&.x] из файла и преобразование в объект типа \fBfixed_t\fP\&. "
+.ti -1c
+.RI "char \fBFixWrite\fP (\fBfixed_t\fP c, char const *filename)"
+.br
+.RI "Преобразует объект типа \fBfixed_t\fP в строку вида FIX[x\&.x] и записывает его в файл "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixAdd\fP (\fBfixed_t\fP a, \fBfixed_t\fP b)"
+.br
+.RI "Операция суммирования двух объектов типа \fBfixed_t\fP\&. "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixSub\fP (\fBfixed_t\fP a, \fBfixed_t\fP b)"
+.br
+.RI "Операция вычитания двух объектов типа \fBfixed_t\fP\&. "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixMul\fP (\fBfixed_t\fP a, \fBfixed_t\fP b)"
+.br
+.RI "Операция произведения двух объектов типа \fBfixed_t\fP\&. "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixDiv\fP (\fBfixed_t\fP a, \fBfixed_t\fP b)"
+.br
+.RI "Операция деление двух объектов типа \fBfixed_t\fP\&. "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixNegate\fP (\fBfixed_t\fP c)"
+.br
+.RI "Взятие объекта типа \fBfixed_t\fP с противоположным знаком "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixReciprocal\fP (\fBfixed_t\fP c)"
+.br
+.RI "Деление 1 на объект типа \fBfixed_t\fP\&. "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixAbs\fP (\fBfixed_t\fP c)"
+.br
+.RI "Получение модуля от объекта типа \fBfixed_t\fP\&. "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixRound\fP (\fBfixed_t\fP c)"
+.br
+.RI "Округление объекта типа \fBfixed_t\fP до единиц по правилам математики "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixFloor\fP (\fBfixed_t\fP c)"
+.br
+.RI "Округление объекта типа \fBfixed_t\fP до единиц в меньшую сторону "
+.ti -1c
+.RI "\fBfixed_t\fP \fBFixCeil\fP (\fBfixed_t\fP c)"
+.br
+.RI "Округление объекта типа \fBfixed_t\fP до единиц в большую сторону "
+.ti -1c
+.RI "char \fBFixCompare\fP (\fBfixed_t\fP a, \fBfixed_t\fP b)"
+.br
+.RI "Сравнеение двух объектов типа \fBfixed_t\fP\&. "
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "const \fBfixed_t\fP \fBZERO\fP = { 0,0,1,0 }"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Реализация нового типа данных \fBfixed_t\fP: число с фиксированной точкой 
+
+
+.SH "Function Documentation"
+.PP 
+.SS "\fBfixed_t\fP FixAbs (\fBfixed_t\fP a)"
+
+.PP
+Получение модуля от объекта типа \fBfixed_t\fP\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает результат операции в виде объекта типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixAdd (\fBfixed_t\fP a, \fBfixed_t\fP b)"
+
+.PP
+Операция суммирования двух объектов типа \fBfixed_t\fP\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.br
+\fIb\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает результат суммирования в виде объекта типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "double FixAsDouble (\fBfixed_t\fP a)"
+
+.PP
+Создание числа типа double из объекта типа \fBfixed_t\fP\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает число типа double 
+.RE
+.PP
+
+.SS "int FixAsInt (\fBfixed_t\fP a)"
+
+.PP
+Создание числа типа int из объекта типа \fBfixed_t\fP\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает число типа int 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixCeil (\fBfixed_t\fP a)"
+
+.PP
+Округление объекта типа \fBfixed_t\fP до единиц в большую сторону 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает результат операции в виде объекта типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "char FixCompare (\fBfixed_t\fP a, \fBfixed_t\fP b)"
+
+.PP
+Сравнеение двух объектов типа \fBfixed_t\fP\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.br
+\fIb\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает -1, если первое число меньше второго, 0, если они равны, 1, если первое число больше второго 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixDiv (\fBfixed_t\fP a, \fBfixed_t\fP b)"
+
+.PP
+Операция деление двух объектов типа \fBfixed_t\fP\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия (Делимое) 
+.br
+\fIb\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия (Делитель) 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает результат деления в виде объекта типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixFloor (\fBfixed_t\fP a)"
+
+.PP
+Округление объекта типа \fBfixed_t\fP до единиц в меньшую сторону 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает результат операции в виде объекта типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "char * FixFormat (\fBfixed_t\fP a)"
+
+.PP
+Создание строки вида FIX[x\&.x] из объекта типа \fBfixed_t\fP\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает указатель на начало строки 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixFromDouble (double a)"
+
+.PP
+Создание объекта типа \fBfixed_t\fP из числа типа double\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число, над которым работает программа 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает объект типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixFromInt (int a)"
+
+.PP
+Создание объекта типа \fBfixed_t\fP из числа типа int\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число, над которым работает программа 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает объект типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixMul (\fBfixed_t\fP a, \fBfixed_t\fP b)"
+
+.PP
+Операция произведения двух объектов типа \fBfixed_t\fP\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.br
+\fIb\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает результат произведения в виде объекта типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixNegate (\fBfixed_t\fP a)"
+
+.PP
+Взятие объекта типа \fBfixed_t\fP с противоположным знаком 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает результат операции в виде объекта типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixParse (char * string)"
+
+.PP
+Создание объекта типа \fBfixed_t\fP из строки вида FIX[x\&.x]\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIstring\fP Строка, из которой создаётсяя объект 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает объект типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixRead (char const * filepath)"
+
+.PP
+Считывание строки вида FIX[x\&.x] из файла и преобразование в объект типа \fBfixed_t\fP\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIfilepath\fP Строка, содержащая в себе путь к файлу 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает объект типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixReciprocal (\fBfixed_t\fP a)"
+
+.PP
+Деление 1 на объект типа \fBfixed_t\fP\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает результат операции в виде объекта типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixRound (\fBfixed_t\fP a)"
+
+.PP
+Округление объекта типа \fBfixed_t\fP до единиц по правилам математики 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает результат операции в виде объекта типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "\fBfixed_t\fP FixSub (\fBfixed_t\fP a, \fBfixed_t\fP b)"
+
+.PP
+Операция вычитания двух объектов типа \fBfixed_t\fP\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия (Уменьшаемое) 
+.br
+\fIb\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия (Вычитаемое) 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает результат вычитания в виде объекта типа \fBfixed_t\fP 
+.RE
+.PP
+
+.SS "char FixWrite (\fBfixed_t\fP a, char const * filepath)"
+
+.PP
+Преобразует объект типа \fBfixed_t\fP в строку вида FIX[x\&.x] и записывает его в файл 
+.PP
+\fBParameters\fP
+.RS 4
+\fIa\fP Число в виде объекта \fBfixed_t\fP, над которым выполняются действия 
+.br
+\fIfilepath\fP Строка, содержащая в себе путь к файлу 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+Возвращает 1, если функция выполнена, и 0, если возникла ошибка 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Fix from the source code\&.

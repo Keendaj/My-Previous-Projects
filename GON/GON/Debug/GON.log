@@ -1,0 +1,8 @@
+﻿  GON.c
+C:\Users\Keendaj\source\repos\GON\GON\GON.c(14,15): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\Keendaj\source\repos\GON\GON\GON.c(14,26): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\Keendaj\source\repos\GON\GON\GON.c(14,38): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\Keendaj\source\repos\GON\GON\GON.c(14,49): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\Keendaj\source\repos\GON\GON\GON.c(36,20): warning C4101: currheight: неиспользованная локальная переменная
+C:\Users\Keendaj\source\repos\GON\GON\GON.c(36,9): warning C4101: currwidth: неиспользованная локальная переменная
+  GON.vcxproj -> C:\Users\Keendaj\source\repos\GON\Debug\GON.exe

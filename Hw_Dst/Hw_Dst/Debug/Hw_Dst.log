@@ -1,0 +1,9 @@
+﻿  Hw_Dst.c
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(25,20): warning C4047: <: "int" отличается по уровням косвенного обращения от "int *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(28,4): warning C4047: return: "int" отличается по уровням косвенного обращения от "void *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(37,4): warning C4047: return: "int" отличается по уровням косвенного обращения от "void *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(70,2): warning C4047: return: "char *" отличается по уровням косвенного обращения от "char **"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(113,15): warning C4047: ==: "int" отличается по уровням косвенного обращения от "void *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(156,13): warning C4047: ==: "int" отличается по уровням косвенного обращения от "void *"
+C:\Users\Keendaj\source\repos\Hw_Dst\Hw_Dst\Hw_Dst.c(204,9): warning C4047: инициализация: "char **" отличается по уровням косвенного обращения от "char *"
+  Hw_Dst.vcxproj -> C:\Users\Keendaj\source\repos\Hw_Dst\Debug\Hw_Dst.exe

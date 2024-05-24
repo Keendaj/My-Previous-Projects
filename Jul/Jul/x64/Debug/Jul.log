@@ -1,0 +1,6 @@
+﻿  Jul.c
+C:\Users\Keendaj\source\repos\Jul\Jul\Jul.c(12,6): warning C4013: 'not' undefined; assuming extern returning int
+Jul.obj : error LNK2019: unresolved external symbol LabInit referenced in function main
+Jul.obj : error LNK2019: unresolved external symbol not referenced in function main
+labengine-vs15-dbg.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Keendaj\source\repos\Jul\x64\Debug\Jul.exe : fatal error LNK1120: 2 unresolved externals

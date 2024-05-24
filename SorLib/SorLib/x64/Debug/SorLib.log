@@ -1,0 +1,12 @@
+﻿  SorLib.c
+C:\Users\Keendaj\source\repos\SorLib\SorLib\SorLib.c(35,24): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\SorLib\SorLib\SorLib.c(152,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\SorLib\SorLib\SorLib.c(123,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\SorLib\SorLib\SorLib.c(124,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\SorLib\SorLib\SorLib.c(187,37): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\SorLib\SorLib\SorLib.c(157,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\SorLib\SorLib\SorLib.c(158,38): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\SorLib\SorLib\SorLib.c(205,13): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\SorLib\SorLib\SorLib.c(211,13): warning C4244: '/=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Keendaj\source\repos\SorLib\SorLib\SorLib.c(293): warning C4172: returning address of local variable or temporary: sort_list
+  SorLib.vcxproj -> C:\Users\Keendaj\source\repos\SorLib\x64\Debug\SorLib.dll

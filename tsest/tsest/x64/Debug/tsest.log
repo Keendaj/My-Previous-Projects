@@ -1,0 +1,8 @@
+﻿  tsest.c
+C:\Users\Keendaj\source\repos\tsest\tsest\tsest.c(9,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
+C:\Users\Keendaj\source\repos\tsest\tsest\tsest.c(9,9): message : рекомендуется использовать "%zd" в строке форматирования
+C:\Users\Keendaj\source\repos\tsest\tsest\tsest.c(10,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "unsigned __int64"
+C:\Users\Keendaj\source\repos\tsest\tsest\tsest.c(10,9): message : рекомендуется использовать "%lld" в строке форматирования
+C:\Users\Keendaj\source\repos\tsest\tsest\tsest.c(10,9): message : рекомендуется использовать "%Id" в строке форматирования
+C:\Users\Keendaj\source\repos\tsest\tsest\tsest.c(10,9): message : рекомендуется использовать "%I64d" в строке форматирования
+  tsest.vcxproj -> C:\Users\Keendaj\source\repos\tsest\x64\Debug\tsest.exe
